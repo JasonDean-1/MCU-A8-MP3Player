@@ -1,0 +1,16 @@
+一、zlib-1.2.3配置命令行
+	./configure --prefix=/opt/FriendlyARM/toolschain/4.5.1/arm-none-linux-gnueabi/sys-root/usr/lib/
+	
+二、libid3tag-0.15.1b配置命令行
+	./configure --host=arm-linux CC=arm-linux-gcc --disable-debugging --disable-shared --enable-static --prefix=/opt/FriendlyARM/toolschain/4.5.1/arm-none-linux-gnueabi/sys-root/usr/lib	
+	
+三、libmad-0.15.1b配置命令行
+	./configure --enable-fpm=arm --host=arm-linux --disable-shared --disable-debugging --enable-static --prefix=/opt/FriendlyARM/toolschain/4.5.1/arm-none-linux-gnueabi/sys-root/usr/lib
+	
+四、madplay-0.15.2b配置命令行
+	./configure --host=arm-linux CC=arm-linux-gcc --disable-shared --disable-debugging --enable-static
+	
+	
+	
+	
+	
